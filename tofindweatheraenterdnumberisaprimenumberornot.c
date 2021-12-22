@@ -2,7 +2,7 @@
 main()
 {
 	int n,i=1,count=0;
-	printf("Enter a number :");
+	printf("\nEnter the value of N");
 	scanf("%d",&n);
 	while(i<=n);
 	{
@@ -10,8 +10,8 @@ main()
 		count++;
 		i++;
 	}
-	if(count<=2)
-	printf("it is a prime number");
+	if(count==2)
+	printf("\nit is a prime number");
 	else
-	printf("not a prime number");
+	printf("\nnot a prime number");
 }
